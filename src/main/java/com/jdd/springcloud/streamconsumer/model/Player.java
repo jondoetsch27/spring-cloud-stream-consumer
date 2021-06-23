@@ -19,6 +19,8 @@ public class Player implements Serializable {
   @JsonProperty("player_number")
   private String playerNumber;
 
+  public Player() {}
+
   public Player(String playerId, String playerFirstName, String playerLastName,
       String playerNumber) {
     this.playerId = playerId;
